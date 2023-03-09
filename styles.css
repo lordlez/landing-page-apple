@@ -1,0 +1,192 @@
+
+:root{
+    --color-fondo: #e9ecef;
+    --header-footer-fondo: #ced4da;
+    --fonto-boton: #f1c313;
+    --borde: #adb5bd;
+    --fondo-producto: #6c757d;
+    --color-nav: #343a40;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+body{
+    background-color: var(--color-fondo);
+}
+
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 160px;
+}
+
+#header{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    align-items: center;
+    background-color: var(--header-footer-fondo);
+    height: 150px;
+}
+
+
+#header-img{
+    width: 10%;
+}
+
+#nav-bar ul{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#nav-bar ul li{
+    list-style-type: none;
+}
+
+.nav-link{
+    color: var(--color-nav);
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+
+
+.hero{
+    text-align: center;
+}
+
+.hero h2{
+    font-size: 4rem;
+}
+
+input{
+    display: block;
+    margin: 15px auto;
+}
+
+#email{
+    padding: 10px;
+    width: 300px;
+}
+
+#submit{
+    padding: 10px;
+    background-color: var(--fonto-boton);
+    font-size: 3rem;
+    cursor: pointer;
+    border: none;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+
+
+.flex{
+    display: flex;
+    margin: 50px 0;
+}
+
+.flex--img{
+    height: 160px;
+}
+
+.flex--img img{
+    width: 250px;
+}
+
+.flex--info{
+    margin: auto 0;
+}
+
+.flex--info h2{
+    font-size: 3rem;
+}
+
+.flex--info p{
+    font-size: 2rem;
+    text-align: justify;
+}
+
+
+#descubre_apple{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+#video{
+    width: 400px;
+}
+
+
+#precios{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.precios-contenedor{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--borde);
+    width: 300px;
+}
+
+.precios-contenedor div{
+    padding: 15px;
+    text-align: center;
+    font-size: 3rem;
+    background-color: var(--fondo-producto);
+    
+}
+
+.precios-contenedor h2{
+   text-align: center;
+    font-size: 3rem;
+}
+
+.precios-contenedor li{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 10px 0;
+    list-style-type: none;
+}
+
+.precios-contenedor button{
+    padding: 20px;
+    background-color: var(--fonto-boton);
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: var(--header-footer-fondo);
+    margin-top: 30px;
+}
+
+footer p{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--color-nav);
+}
+
